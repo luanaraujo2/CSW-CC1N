@@ -1,0 +1,45 @@
+CREATE TABLE consulta(
+cod_consulta serial,
+data DATE,
+descricao VARCHAR(100),
+  CONSTRAINT pk_consulta PRIMARY KEY (cod_consulta)
+);
+create TABLE medico(
+CRM BIGINT,
+nome_medico VARCHAR,
+  CONSTRAINT pk_medico PRIMARY KEY (CRM)
+);
+CREATE table paciente(
+cpf_paciente BIGINT,
+rg BIGINT,
+nome_do_paciente BIGINT,
+  CONSTRAINT pk_paciente primary key (cpf_paciente)
+);
+CREATE TABLE receita_medica(
+num_serie_receita BIGINT,
+data_de_emissao TIMESTAMP,
+descricao_do_problema VARCHAR,
+  CONSTRAINT pk_receita_medica primary key (num_serie_receita)
+);
+create TABLE medicamento_receita(
+custo_total BIGINT
+);
+CREATE TABLE medicamento(
+RF BIGINT,
+nome_medicamento VARCHAR,  
+posologia VARCHAR, 
+modo_de_usar VARCHAR, 
+custo_medio BIGINT,
+tipo BIGINT,
+  CONSTRAINT pk_medicamento PRIMARY KEY (RF)
+);
+CREATE table fabricante(
+id_fabricante BIGINT NOT NULL,
+nome_fabricante VARCHAR,
+  CONSTRAINT pk_fabricante primary KEY (id_fabricante)
+);
+CREATE TABLE tipo(
+sem_tarja INTEGER,
+tarja_vermelha INTEGER,
+tarja_preta INTEGER
+);
