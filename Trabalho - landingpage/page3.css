@@ -1,0 +1,75 @@
+body{ background-color: #151B23;
+}
+
+main{
+    background-color: #212830;
+    margin-top: 100px;
+        max-width: 100%;        /* define a largura máxima da main */
+        padding: 80px;           /* espaçamento interno */
+
+      
+}
+
+p{  text-align: justify;
+    color: beige;
+    display: auto;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  }
+
+.texto {
+    flex: 1; /* ocupa o espaço restante */
+    line-height: 1.1;
+    text-align: justify;
+    hyphens: auto;
+}
+
+h1{ color:#D1D7E0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+h2{ color: #858585;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;   
+}
+
+h3{ text-align: center;
+    color: #979797;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .h3-decorado{ color: #1A1A58;
+    font-size: 2rem;
+}
+img{margin-top: 25px;
+    width: 120px;
+    height: 120px;
+    border-radius: 2px;
+}
+
+/*botao*/
+.botao {
+    display: inline-block;
+    padding: 50px 70px;
+    background-color: #3B8640;  /* cor do botão */
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20cap;
+    box-shadow: 20px 20px 20px #2f3030;
+    transition: background-color 0.3s ease;
+}
+  
+.botao:hover {
+    background-color: rgb(180, 180, 180);  /* cor ao passar o mouse */
+}
+
+picture{
+    max-width: 760px;
+    min-width: 768px;
+    }

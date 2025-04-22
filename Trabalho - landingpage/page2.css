@@ -1,0 +1,113 @@
+body{
+    background-image: linear-gradient(90deg,#09093B,#123551,#1A1A58);
+}
+
+main{
+    background-color: white;
+        max-width: 800px;        /* define a largura máxima da main */
+        margin: 50px auto;       /* centraliza horizontalmente e dá espaçamento vertical */
+        padding: 80px;           /* espaçamento interno */
+        border-radius: 10cap;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra leve opcional */
+      
+}
+
+p{  display: auto;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.texto {
+    flex: 1; /* ocupa o espaço restante */
+    line-height: 1.1;
+    text-align: justify;
+    hyphens: auto;
+}
+
+h2{ color: #1A1A58;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;   
+}
+
+h3{ 
+    color: #565694;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .h3-decorado{ color: #1A1A58;
+    font-size: 2rem;
+}
+
+ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: #033d24;
+  }
+
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 2px;
+}
+
+/*tabela*/
+.tabela-sites {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .tabela-sites th,
+  .tabela-sites td {
+    border: 1px solid #ccc;
+    padding: 12px 16px;
+    text-align: center;
+  }
+  
+  .tabela-sites th {
+    background-color: #103D50;
+    color: white;
+  }
+  
+  .tabela-sites tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabela-sites tr:hover {
+    background-color: #f1f1f1;
+  }
+
+
+.botao {
+    display: inline-block;
+    bottom: 30px;
+    right: 30px;
+    padding: 25px 50px;
+    background-color: #000766;  /* cor do botão */
+    color: rgb(204, 203, 203);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20cap;
+    box-shadow: 5px 5px 5px #1a1919;
+    transition: background-color 0.3s ease;
+}
+
+.botao-container {
+    display: flex;
+    justify-content: flex-end; /* alinha à direita */
+    margin-top: 40px;
+  }
+
+.botao:hover { background-color: #03002c;
+}
+
+picture{
+    max-width: 760px;
+    min-width: 768px;
+    }
